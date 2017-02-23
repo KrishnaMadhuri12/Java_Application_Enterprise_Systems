@@ -1,0 +1,6 @@
+select e.id,e.name,sal2.salary 
+from
+ (SELECT s.id as sb1,max(s.effective_date) as sb2 
+ from salary s group by s.id) sal1, employee e,salary sal2 
+ where e.id=sal1.sb1 
+ and e.id=sal2.id and sal1.sb2=sal2.effective_date

@@ -2,5 +2,5 @@
 git@github.com:KrishnaMadhuri12/StudentAppointmentSystem
 The project holds:
         1. Appointment System with java console implementation source and UML diagrams
-        2. Implementation of finding unique values from the given array.
+        2. Implementation of finding common values of from the given two array.
         3. Effective Dated SQL
